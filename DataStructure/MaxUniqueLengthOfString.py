@@ -40,6 +40,6 @@ def max_length_of_string_1(s):
 if __name__ == '__main__':
     print max_length_of_string_1(" ")
     print max_length_of_string_1("")
-    print max_length_of_string_1("a")
+    print max_length_of_string_1("aaaaa")
     print max_length_of_string_1("abcabcabab")
     print max_length_of_string_1("pwwkew")
