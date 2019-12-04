@@ -31,7 +31,7 @@ def max_length_of_string_1(s):
                     window.pop(0)
             window.append(ss)
         # we return the length of window or length record,because when the string just have one(like 'a'),the circulate
-        # didn't record the length because the iter just execute once and not enter the if statement
+        # didn't record the length because the iter just execute once and didn't enter the if statement
         return len(window) if len(window) > max_length else max_length
     else:
         return 0
